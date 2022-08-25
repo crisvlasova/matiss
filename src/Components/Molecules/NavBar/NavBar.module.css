@@ -1,0 +1,22 @@
+.navbarContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5vw 0 3vw;
+    height: 80px;
+}
+.navbarContainer p {
+    font-size: 30px;
+    font-weight: 500;
+}
+.spanContainer span {
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.spanContainer span:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    cursor: pointer;
+}
