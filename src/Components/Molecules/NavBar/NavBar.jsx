@@ -6,31 +6,14 @@ import phone from '../../../icons/phone.png';
 import style from './NavBar.module.css';
 
 const NavBar = () => {
-    let navOp = [
-        {
-            name:'Inicio',
-            img: home,
-        },
-        {
-            name:'Sobre Nosotros',
-            img: party,
-        },
-        {
-            name:'Servicios',
-            img: cocktail,
-        },
-        {
-            name:'Contactanos!',
-            img: phone,
-        },
-    ]
+    let navOp = ['Inicio','Sobre Nosotros','Servicios','Fotos','Contactanos!']
     return (
         <nav className={style.navbarContainer}>
             <p>Matiss eventos</p>
             <div className={style.spanContainer}>
                 {navOp.map(span => {return (
                     <>
-                        <span>{span.name}</span>
+                        <span>{span}</span>
                     </>
                 )})}
             </div>

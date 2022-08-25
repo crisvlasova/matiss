@@ -1,4 +1,12 @@
 .mainInfoContainer {
+    margin-bottom: 6vh;
+}
+.mainInfoContainer h2 {
+    margin-top: 6vh;
+    margin-right: 30px;
+    font-size: 2rem;
+}
+.mainInfo {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,7 +16,23 @@
     background-size: cover;
     background-attachment: fixed;
 }
-.mainInfoContainer p {
+.mainInfo p {
     color: white;
     font-size: 4rem;
+}
+.sectionContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10vw 0 10vw
+}
+.sectionContainer p {
+    font-size: 1.25rem;
+    font-weight: 550;
+    margin-right: 30px;
+}
+.sectionContainer iframe {
+    border: 2px solid black;
+    border-radius: 4px;
 }
