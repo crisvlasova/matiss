@@ -1,4 +1,19 @@
-.homeContainer {
+.mainInfo {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    background: linear-gradient(rgba(0, 0, 0, 0.408), rgba(0, 0, 0, 0.408)), url('../../../pictures/salon-general.png');
+    background-position: center;
+    background-size: 100%;
+    background-attachment: fixed;
+    transition: all 0.75s
+}
+.mainInfo:hover {
+    background-size: 110%;
+    filter: brightness(150%);
+}
+.mainInfo p {
+    color: white;
+    font-size: 4rem;
 }

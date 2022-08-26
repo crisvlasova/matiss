@@ -1,0 +1,33 @@
+.servicesBg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    background: linear-gradient(rgba(0, 0, 0, 0.151), rgba(0, 0, 0, 0.151)), url('../../../pictures/bartender.png');
+    background-position: center;
+    background-size: 100%;
+    background-attachment: fixed;
+    transition: background-size 0.75s ease;
+}
+.servicesBg:hover {
+    background-size: 110%;
+}
+.servicesContainer h2 {
+    margin-top: 6vh;
+    font-size: 2rem;
+}
+.services {
+    margin: 6vh 10vw 0 10vw;
+    font-size: 1.25rem;
+    font-weight: 550;
+}
+.servicesContainer ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 4vh 7.5vw 6vh;
+    font-size: 1.25rem;
+    font-weight: 550;
+    list-style-position: inside;
+}

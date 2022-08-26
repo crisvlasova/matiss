@@ -1,0 +1,19 @@
+.networkContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: 550;
+}
+.networkContainer:hover {
+    text-decoration: underline;
+}
+.mainContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,20 @@
+.aboutUsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10vw 10vh 10vw
+}
+.aboutUsContainer p {
+    font-size: 1.25rem;
+    font-weight: 550;
+}
+.aboutUsContainer iframe {
+    margin-top: 2rem;
+    border-radius: 4px;
+    border: 2px solid black;
+}
+.aboutUsContainer h2 {
+    margin-top: 6vh;
+    font-size: 2rem;
+}
