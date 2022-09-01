@@ -5,9 +5,9 @@ const Services = () => {
     let services = ['Catering', 'Barra de tragos', 'Decoración', 'DJ', 'Candy Bar', 'Maquillaje y Peinado',
         'Seguridad', 'Animacion', 'Fotografía y Video']
     return (
-        <div className={style.servicesContainer} id='services'>
+        <div className={style.servicesContainer}>
             <div className={style.servicesBg}></div>
-            <h2>Nuestros Servicios</h2>
+            <h2  id='services'>Nuestros Servicios</h2>
             <p className={style.services}>
                 En Matiss ofrecemos una gran cantidad de servicios, los cuales se pueden personalizar
                 a gusto. Entre todos ellos tenemos:

@@ -23,8 +23,8 @@ const GetInTouch = () => {
         }
     ]
     return (
-        <div id='getintouch'>
-            <h3>Para mas información puedes contactanosnos a traves de nuestras redes</h3>
+        <footer id='getintouch'>
+            <h3>Para mas información puedes contactarnos traves de nuestras redes</h3>
             <main className={style.mainContainer}>
                 {networks.map(net => {
                     return (
@@ -35,7 +35,7 @@ const GetInTouch = () => {
                     )
                 })}
             </main>
-        </div>
+        </footer>
     );
 }
 
