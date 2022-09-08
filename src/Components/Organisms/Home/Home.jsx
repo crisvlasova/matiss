@@ -6,7 +6,7 @@ const Home = () => {
     return (
         <div className={style.mainInfoContainer} id='home'>
             <main className={style.mainInfo}>
-                <p className='animate__animated animate__fadeIn animate__slow'>Matiss Eventos, un lugar distinto</p>
+                <p className='animate__animated animate__fadeIn animate__slow'>Matíss Eventos, un lugar distinto</p>
             </main>
         </div>
     )

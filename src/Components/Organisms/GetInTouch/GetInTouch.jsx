@@ -7,7 +7,7 @@ import instagram from '../../../icons/instagram.png'
 const GetInTouch = () => {
     let networks = [
         {
-            href: 'whatsapp:contact=+5491124596656@s.whatsapp.com&message=""',
+            href: 'https://api.whatsapp.com/send?phone=5491124596656&text=',
             name: 'Whatsapp',
             icon: whatsapp,
         },
@@ -24,7 +24,7 @@ const GetInTouch = () => {
     ]
     return (
         <footer id='getintouch'>
-            <h3>Para mas información puedes contactarnos traves de nuestras redes</h3>
+            <h3>Para más información puedes contactarnos traves de nuestras redes:</h3>
             <main className={style.mainContainer}>
                 {networks.map(net => {
                     return (

@@ -4,7 +4,8 @@ import Home from './Components/Organisms/Home/Home.jsx'
 import AboutUs from './Components/Organisms/AboutUs/AboutUs';
 import Services from './Components/Organisms/Services/Services';
 import GetInTouch from './Components/Organisms/GetInTouch/GetInTouch';
-import { Link } from 'react-router-dom'
+
+
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
         <AboutUs />
         <Services />
         <GetInTouch />
+        <a href='#' alt='arrow' className='whatsapp'>
+            ⇈
+        </a>
     </div>
   );
 }
